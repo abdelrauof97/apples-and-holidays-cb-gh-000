@@ -61,6 +61,7 @@ def all_holidays_with_bbq(holiday_hash)
     v.map { |h,s|
       if s == "BBQ"
         h
+      end
     }
   }
 
