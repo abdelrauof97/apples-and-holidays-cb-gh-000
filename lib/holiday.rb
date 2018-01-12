@@ -65,9 +65,8 @@ def all_holidays_with_bbq(holiday_hash)
   }.flatten.compact
 
 end
-binding.pry
 
-all_holidays_with_bbq(holiday_supplies)
+
 
 
 
