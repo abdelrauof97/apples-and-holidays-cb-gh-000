@@ -56,6 +56,7 @@ def all_supplies_in_holidays(holiday_hash)
 
 end
 binding.pry
+
 def all_holidays_with_bbq(holiday_hash)
   holiday_hash.map { |k,v|
     v.map { |h,s|
