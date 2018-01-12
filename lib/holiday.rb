@@ -59,7 +59,8 @@ end
 def all_holidays_with_bbq(holiday_hash)
   holiday_hash.map { |k,v|
     v.map { |h,s|
-      if h == ""
+      if s == "BBQ"
+        h
     }
   }
 
