@@ -59,7 +59,7 @@ end
 def all_holidays_with_bbq(holiday_hash)
   holiday_hash.map { |k,v|
     v.map { |h,s|
-      h if s == "BBQ"
+      h if s.include?("BBQ")
       
     }
   }
